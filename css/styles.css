@@ -2,7 +2,7 @@ body {
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     color: #434455;
-    
+
 }
 
 
@@ -17,9 +17,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
+
 .header-logo-studio {
     color: #2E2F42;
 }
+
 .navigation a {
     text-decoration: none;
     color: #2E2F42;
@@ -29,12 +31,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: bold;
-    
+
 }
+
 .navigation-1 :hover {
 
     color: #404BBF;
 }
+
 .web-studio-1 ul {
     list-style-type: none;
     padding: 0;
@@ -50,28 +54,32 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
-    
-   
-    
+
+
+
 }
+
 .iletisim :hover {
     color: #404BBF;
 }
+
 address ul {
-list-style-type: none;
-padding: 0;
-margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
+
 .main-navbar1 {
     background-color: #2E2F42;
 
 }
+
 .main-navbar1-title {
- text-align: center;
- color: #ffffff;
- font-size: 56px;
- line-height: 1.07;
- letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .button-1 {
@@ -90,11 +98,12 @@ margin: 0;
 .button-1 :hover {
     background-color: #404BBF;
 }
+
 .button-1 :focus {
     background-color: #404BBF;
 }
 
-.main-navbar2-ul{
+.main-navbar2-ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -105,6 +114,7 @@ margin: 0;
     padding: 0;
     margin: 0;
 }
+
 .main-navbar2 p {
     font-size: 16px;
     font-weight: 400;
@@ -116,9 +126,11 @@ margin: 0;
     padding: 0;
     margin: 0;
 }
+
 .main-navbar3 {
     background-color: #F4F4FD;
 }
+
 .main-navbar3-title {
     text-align: center;
     font-size: 36px;
@@ -128,60 +140,53 @@ margin: 0;
     color: #2E2F42;
     text-transform: capitalize;
 }
-.main-navbar3-ul  {
+
+.main-navbar3-ul {
     list-style-type: none;
     text-align: left;
     margin: 0;
     padding: 0;
 
 }
-.main-navbar3-isim {
-    background-color: #FFFFFF;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.madde-1-paragraf {
-    font-size: 16px;
-}
 
-.main-sinif-4-title {
+.main-navbar-4-title {
     text-align: center;
     text-transform: capitalize;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     font-weight: 700;
     color: #2E2F42;
 }
 
-.main-sinif-4-ul {
+.main-navbar-4-ul {
     list-style-type: none;
     text-align: left;
     margin: 0;
     padding: 0;
 
 }
-.main-sinif-4-ul p{
-    line-height: 1.5;
-        letter-spacing: 0.02em;
-}
-.navbar4-gorev-alanı{
+
+.navbar4-görev-alanı {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.main-navbar3-ul p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 footer {
     background-color: #2e2f42;
 
 }
+
 .contacts-a {
-    color:#4D5AE5 ;
+    color: #4D5AE5;
     font-family: "Raleway";
     font-size: 18px;
     font-weight: 700;
@@ -190,14 +195,15 @@ footer {
     text-align: left;
     text-decoration: none;
     text-transform: uppercase;
-    
+
 }
-.footer-logo-studio{
+
+.footer-logo-studio {
     color: #F4F4FD;
 }
 
 .contacts-p {
-    font-size: 16px;    
+    font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
     letter-spacing: 0.02em;
