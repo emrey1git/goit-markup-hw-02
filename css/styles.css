@@ -19,11 +19,14 @@ body {
     letter-spacing: 0.03em;
 }
 .calisma-ana-sayfa {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-
+text-decoration: none;
+    color: #2E2F42;
+    font-size: 16px;
+    width: 48px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: bold;
 }
 .calisma-ana-sayfa :hover,
 .calisma-ana-sayfa :focus {
@@ -33,30 +36,18 @@ letter-spacing: 0.02em;
     color: #4D5AE5;
 }
 
-.navigation a {
-    text-decoration: none;
-    color: #2E2F42;
-    font-size: 16px;
-    width: 48px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-weight: bold;
-
-}
-
 .navigation-1 :hover {
 
     color: #404BBF;
 }
 
-.web-studio-1 ul {
+.navigation-1 {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-
-.iletisim-1 a {
+.mail,
+.tell {
     text-decoration: none;
     color: #434455;
     font-weight: 400;
@@ -76,7 +67,7 @@ letter-spacing: 0.02em;
 .address-baglanti {
 font-style: normal;
 }
-address ul {
+.iletisim-1 {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -132,7 +123,7 @@ address ul {
     margin: 0;
 }
 
-.main-navbar2 p {
+.navbar-2-paragraf {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -216,7 +207,7 @@ address ul {
 
 
 
-footer {
+.contacts-all {
     background-color: #2e2f42;
 
 }
