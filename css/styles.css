@@ -135,35 +135,47 @@ margin: 0;
     padding: 0;
 
 }
-
-.main-navbar-4-title {
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    font-weight: 700;
-    color: #2E2F42;
-}
-
-.main-navbar-4-ul {
-    list-style-type: none;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-
-}
-.navbar4-görev-alanı{
+.main-navbar3-isim {
+    background-color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.main-navbar3-ul p {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.madde-1-paragraf {
+    font-size: 16px;
 }
+
+.main-sinif-4-title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    color: #2E2F42;
+}
+
+.main-sinif-4-ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+}
+.main-sinif-4-ul p{
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.navbar4-gorev-alanı{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
 footer {
     background-color: #2e2f42;
 
