@@ -65,7 +65,7 @@ margin: 0;
     background-color: #2E2F42;
 
 }
-.main-navbar1 h1 {
+.main-navbar1-title {
  text-align: center;
  color: #ffffff;
  font-size: 56px;
@@ -73,7 +73,7 @@ margin: 0;
  letter-spacing: 0.02em;
 }
 
-.button {
+.button-1 {
     color: white;
     background-color: #4D5AE5;
     width: 169px;
@@ -87,6 +87,9 @@ margin: 0;
 }
 
 .button :hover {
+    background-color: #404BBF;
+}
+.button :focus {
     background-color: #404BBF;
 }
 
@@ -115,7 +118,7 @@ margin: 0;
 .main-navbar3 {
     background-color: #F4F4FD;
 }
-.main-navbar3 h2 {
+.main-navbar3-title {
     text-align: center;
     font-size: 36px;
     line-height: 1.2;
@@ -123,7 +126,7 @@ margin: 0;
     font-weight: 700;
     color: #2E2F42;
 }
-.main-navbar3 ul  {
+.main-navbar3-ul  {
     list-style-type: none;
     text-align: left;
     margin: 0;
@@ -131,7 +134,7 @@ margin: 0;
 
 }
 
-.main-navbar-4 h2 {
+.main-navbar-4-title {
     text-align: center;
     font-size: 36px;
     line-height: 1.2;
@@ -140,7 +143,7 @@ margin: 0;
     color: #2E2F42;
 }
 
-.main-navbar-4 ul {
+.main-navbar-4-ul {
     list-style-type: none;
     text-align: left;
     margin: 0;
@@ -148,27 +151,27 @@ margin: 0;
 
 }
 
-.contacts {
-    background-color: #2E2F42;
+.contacts-all {
+    color: #2e2f42;
 
 }
-.contacts a {
-    color: #F4F4FD;
-    font-family: "Raleway",sans-serif;
+.contacts-a {
+    color:#4D5AE5 ;
+    font-family: "Raleway";
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     text-decoration: none;
     text-transform: uppercase;
     
 }
-.footer-logo-web{
-    color: #4D5AE5;
+.footer-logo-studio{
+    color: #F4F4FD;
 }
 
-.contacts p {
+.contacts-p {
     font-size: 16px;    
     line-height: 1.5;
     font-weight: 400;
