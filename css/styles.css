@@ -1,206 +1,135 @@
 body {
-    background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     color: #434455;
-
+    background-color: #FFFFFF;
 }
 
-
-.header-logo {
-    font-size: 18px;
+.nav-logo {
     font-family: "Raleway", sans-serif;
-    
-    color: #2e2f42;
     font-weight: 700;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
-.header-logo :hover {
+
+.nav-logo .logo-span {
+    color: #2e2f42;
+}
+
+.nav-list__list-item .link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-list__list-item .link:hover,
+.nav-list__list-item .link:focus {
     color: #404bbf;
 }
-.calisma-ana-sayfa {
-text-decoration: none;
-    color: #2E2F42;
-    font-size: 16px;
-    /* width: 48px; */
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-weight: bold;
-}
-.calisma-ana-sayfa :hover,
-.calisma-ana-sayfa :focus {
-    color: #404bbf
-}
-.header-logo-web {
-    color: #4D5AE5;
-}
 
-.navigation-1 :hover {
-
-    color: #404BBF;
-}
-
-.navigation-1 {
-    list-style-type: none;
-    /* padding: 0; */
-    margin: 0;
-}
-.mail,
-.tell {
-    text-decoration: none;
-    color: #434455;
-    font-weight: 400;
-    /* width: 153px; */
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.contact {
     font-style: normal;
-
-
-
 }
 
-.iletisim-1 :hover {
-    color: #404BBF;
-}
-.address-baglanti {
-font-style: normal;
-}
-.iletisim-1 {
-    list-style-type: none;
-    /* padding: 0; */
-    margin: 0;
+.contact .link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.main-navbar1 {
-    background-color: #2E2F42;
-
+.contact .link:hover,
+.contact .link:focus {
+    color: #404bbf;
 }
 
-.main-navbar1-title {
-    text-align: center;
-    color: #ffffff;
+.first-section {
+    background-color: #2e2f42;
+}
+
+.first-section__title {
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
-.button-1 {
-    color: white;
-    background-color: #4D5AE5;
-    /* width: 169px; */
-    /* height: 56px; */
+.first-section__btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    color: #ffffff;
+    background-color: #4D5AE5;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    font-family: "Roboto", sans-serif;
 }
 
-.button-1 :hover,
-.button-1 :focus {
+.first-section__btn:hover,
+.first-section__btn:focus {
     background-color: #404BBF;
 }
-.main-navbar2-titles {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42; 
-}
 
-.main-navbar2-ul {
-    font-size: 20px;
+.second-section__list-title {
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    text-decoration: none;
-    list-style-type: none;
-    /* padding: 0; */
-    margin: 0;
 }
 
-.navbar-2-paragraf {
+.second-section .text {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-decoration: none;
-    list-style-type: none;
-    /* padding: 0; */
-    margin: 0;
 }
 
-.main-navbar3 {
-    background-color: #F4F4FD;
-}
-.madde-1-liste-li{
-    background-color: #FFFFFF;
-
+.third-section {
+    background-color: #f4f4fd;
 }
 
-.main-navbar-3-title {
-    text-align: center;
+.third-section__title {
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
-    font-weight: 700;
-    color: #2E2F42;
     text-transform: capitalize;
+    color: #2e2f42;
 }
-.listenin-bas-karateri-1 {
+
+.third-section__list .list-item {
+    background-color: #ffffff;
+}
+
+.third-section__list .member-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
-}
-.paragraf{
-    font-size: 16px;
 }
 
-.main-navbar3-ul {
-    list-style-type: none;
-    text-align: left;
-    margin: 0;
-    /* padding: 0; */
-
-}
-
-
-.main-navbar-4-title {
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 36px;
-    letter-spacing: 0.02em;
-    font-weight: 700;
-    color: #2E2F42;
-    line-height: 1.11;
-}
-
-.main-navbar-4-ul {
-    list-style-type: none;
-    text-align: left;
-    margin: 0;
-    /* padding: 0; */
-
-}
-.belirlenmis-p-etiketi-1 {
+.third-section__list .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
 }
 
-.navbar4-görev-alanı {
+.forth-section__title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.list-item__title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -208,35 +137,33 @@ font-style: normal;
     color: #2e2f42;
 }
 
-
-
-.contacts-all {
-    background-color: #2e2f42;
-
+.list-item .text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.contacts-a {
-    color: #4D5AE5;
-    font-family: "Raleway";
-    font-size: 18px;
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer .text {
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-align: left;
-    text-decoration: none;
     text-transform: uppercase;
-
+    color: #4d5ae5;
 }
 
-.footer-logo-studio {
-    color: #F4F4FD;
-}
-
-.contacts-p {
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #F4F4FD;
+.footer-logo .logo-span {
+    color: #f4f4fd;
 }
